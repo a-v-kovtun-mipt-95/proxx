@@ -12,7 +12,7 @@ const Proxx: FC = () => {
     const dispatch = useAppDispatch();
     return <div className="container">
         {proxx.board.map((cell) => 
-            <div onClick={()=> dispatch(openBoardCell(cell.id))}>
+            <div data-testid={cell.id.toString()} onClick={()=> dispatch(openBoardCell(cell.id))}>
                 {cell.isOpen ? cell.isBlackHole ? 'H' : cell.countOfAdjacentBlackHoles : ' '}
             </div>)}
     </div>;
