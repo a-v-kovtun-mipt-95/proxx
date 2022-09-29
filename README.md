@@ -1,4 +1,6 @@
-The application logic is located in https://github.com/a-v-kovtun-mipt-95/proxx/blob/master/src/features/proxx/proxxSlice.ts. UI is located in https://github.com/a-v-kovtun-mipt-95/proxx/blob/master/src/features/proxx/Proxx.tsx. 
+The application logic is located in https://github.com/a-v-kovtun-mipt-95/proxx/blob/master/src/features/proxx/proxxSlice.ts. UI is located in https://github.com/a-v-kovtun-mipt-95/proxx/blob/master/src/features/proxx/Proxx.tsx. Test is located in https://github.com/a-v-kovtun-mipt-95/proxx/blob/master/src/App.test.tsx.
+
+UI:
 
 
 ![image](https://user-images.githubusercontent.com/34024533/192879795-d6087cd7-e9c9-4b51-a768-7878f8fa7683.png)
